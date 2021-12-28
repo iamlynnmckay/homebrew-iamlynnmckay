@@ -8,3 +8,4 @@ For more information, see some of the following links.
 - https://docs.brew.sh/How-to-Create-and-Maintain-a-Tap
 - https://docs.brew.sh/Formula-Cookbook
 - https://betterprogramming.pub/a-step-by-step-guide-to-create-homebrew-taps-from-github-repos-f33d3755ba74
+- https://medium.com/prodopsio/creating-homebrew-taps-for-private-internal-tools-c41363d58ab0
