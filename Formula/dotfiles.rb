@@ -1,8 +1,8 @@
 class Dotfiles < Formula
     desc ""
     homepage "https://github.com/iamlynnmckay/dotfiles"
-    url "https://github.com/iamlynnmckay/dotfiles/archive/refs/tags/v1.0.1.tar.gz"
-    sha256 "fbcefd0df06798195d5395bd35fa55be6fc7276174b817a0479eb3f62db2c226"
+    url "https://github.com/iamlynnmckay/dotfiles/archive/refs/tags/v1.0.2.tar.gz"
+    sha256 "438bf401b4189e60467f27abb267b9362c1e912f518abd532364dc61dfcdb735"
     license "MIT"
     def install
         bin.install "main.sh" => "dotfiles"
@@ -10,11 +10,7 @@ class Dotfiles < Formula
     end
     def caveats
         <<~EOS
-
-            Bootstrap successful, dotfiles are available in /usr/local/opt/dotfiles.
-
-            To complete the installation, run 'dotfiles --install /usr/local/opt/dotfiles'.
-
+            Please run 'dotfiles --homebrew' to finish the package installation.
         EOS
     end
     test do
