@@ -1,9 +1,9 @@
 cask "sfw" do
-    version :latest
+    version "1.0.0"
     name "sfw"
     desc ""
     homepage "https://github.com/iamlynnmckay/sfw"
-    url "https://github.com/iamlynnmckay/sfw/archive/refs/tags/v1.0.0.tar.gz"
+    url "https://github.com/iamlynnmckay/sfw/archive/refs/tags/v#{version}tar.gz"
     sha256 ""
     # formula dependencies
     depends_on formula: "coreutils"
