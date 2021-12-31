@@ -18,6 +18,7 @@ cask "sfw" do
     depends_on formula: "haskell-stack"
     depends_on formula: "neovim"
     depends_on formula: "rust"
+    depends_on formula: "tmux"
     # cask dependencies
     depends_on cask: "firefox"
     depends_on cask: "gimp"
@@ -27,7 +28,6 @@ cask "sfw" do
     depends_on cask: "libreoffice"
     depends_on cask: "mactex-no-gui"
     depends_on cask: "macvim"
-    depends_on cask: "tmux"
     depends_on cask: "visual-studio-code"
     depends_on cask: "vlc"
     # iamlynnmckay tap dependencies
