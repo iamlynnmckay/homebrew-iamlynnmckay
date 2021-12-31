@@ -3,7 +3,6 @@ cask "sfw" do
     homepage "https://github.com/iamlynnmckay/sfw"
     url "https://github.com/iamlynnmckay/sfw/archive/refs/tags/v1.0.0.tar.gz"
     sha256 ""
-    license "MIT"
     # formula dependencies
     depends_on formula: "coreutils"
     depends_on formula: "docker"

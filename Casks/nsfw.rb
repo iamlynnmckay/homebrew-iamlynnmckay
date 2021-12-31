@@ -3,7 +3,6 @@ cask "nsfw" do
     homepage "https://github.com/iamlynnmckay/nsfw"
     url "https://github.com/iamlynnmckay/nsfw/archive/refs/tags/v1.0.0.tar.gz"
     sha256 ""
-    license "MIT"
     # cask dependencies
     depends_on cask: "arduino"
     depends_on cask: "audacity"
@@ -28,7 +27,7 @@ cask "nsfw" do
     depends_on cask: "vcv-rack"
     depends_on cask: "zoom"
     # iamlynnmckay tap dependencies
-    depends_on formula: "iamlynnmckay/iamlynnmckay/sfw"
+    depends_on cask: "iamlynnmckay/iamlynnmckay/sfw"
     # nsfw executable
     binary "nsfw"
     # caveats
