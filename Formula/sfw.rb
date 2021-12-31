@@ -21,7 +21,7 @@ class Sfw < Formula
     depends_on "rust"
     # iamlynnmckay tap dependencies
     depends_on "iamlynnmckay/iamlynnmckay/dotfiles"
-    def pre_install
+    def install
         # cask dependencies
         system "/usr/local/bin/brew", "install", "--cask", "firefox"
         system "/usr/local/bin/brew", "install", "--cask", "gimp"
@@ -34,8 +34,6 @@ class Sfw < Formula
         system "/usr/local/bin/brew", "install", "--cask", "tmux"
         system "/usr/local/bin/brew", "install", "--cask", "visual-studio-code"
         system "/usr/local/bin/brew", "install", "--cask", "vlc"
-    end
-    def install
         # sfw executable
         bin.install "sfw"
     end

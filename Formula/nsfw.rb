@@ -6,7 +6,7 @@ class Nsfw < Formula
     license "MIT"
     # iamlynnmckay tap dependencies
     depends_on "iamlynnmckay/iamlynnmckay/sfw"
-    def pre_install
+    def install
         # cask dependencies
         system "/usr/local/bin/brew", "install", "--cask", "arduino"
         system "/usr/local/bin/brew", "install", "--cask", "audacity"
@@ -30,8 +30,6 @@ class Nsfw < Formula
         system "/usr/local/bin/brew", "install", "--cask", "twitch"
         system "/usr/local/bin/brew", "install", "--cask", "vcv-rack"
         system "/usr/local/bin/brew", "install", "--cask", "zoom"
-    end
-    def install
         # nsfw executable
         bin.install "nsfw"
     end
