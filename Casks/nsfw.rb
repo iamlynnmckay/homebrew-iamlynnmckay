@@ -1,10 +1,10 @@
 cask "nsfw" do
-    version :latest
+    version "1.0.0"
     name "nsfw"
-    desc ""
+    desc "nsfw"
     homepage "https://github.com/iamlynnmckay/nsfw"
-    url "https://github.com/iamlynnmckay/nsfw/archive/refs/tags/v1.0.0.tar.gz"
-    sha256 ""
+    url "https://github.com/iamlynnmckay/nsfw/archive/refs/tags/v#{version}.tar.gz"
+    sha256 "89549a3ba5d3270ef6af1d0af7bbd4a4ae9050c483cc4601f18e0d2b30d7be3a"
     # cask dependencies
     depends_on cask: "arduino"
     depends_on cask: "audacity"

@@ -1,10 +1,10 @@
 cask "sfw" do
     version "1.0.0"
     name "sfw"
-    desc ""
+    desc "sfw"
     homepage "https://github.com/iamlynnmckay/sfw"
     url "https://github.com/iamlynnmckay/sfw/archive/refs/tags/v#{version}tar.gz"
-    sha256 ""
+    sha256 "1cfb35b7ab8722331cfaa3698efb9bedcd5e56c6dfb214ddc92fccae4d0a1e15"
     # formula dependencies
     depends_on formula: "coreutils"
     depends_on formula: "docker"
