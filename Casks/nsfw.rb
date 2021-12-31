@@ -40,7 +40,7 @@ cask "nsfw" do
     depends_on cask: "zoom"
     # iamlynnmckay tap dependencies
     depends_on cask: "iamlynnmckay/iamlynnmckay/sfw"
-    depends_on cask: "iamlynnmckay/iamlynnmckay/nsfw-formula"
+    depends_on formula: "iamlynnmckay/iamlynnmckay/nsfw-formula"
     # nsfw executable
     # stage only
     stage_only true
