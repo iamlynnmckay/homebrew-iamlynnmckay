@@ -1,7 +1,7 @@
 class Dotfiles < Formula
     desc ""
     homepage "https://github.com/iamlynnmckay/dotfiles"
-    url "https://github.com/iamlynnmckay/dotfiles/archive/refs/tags/v1.0.4.tar.gz"
+    url "https://github.com/iamlynnmckay/dotfiles/archive/refs/tags/v1.0.5.tar.gz"
     sha256 ""
     license "MIT"
     def install
