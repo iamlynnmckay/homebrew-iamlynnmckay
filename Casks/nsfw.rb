@@ -1,5 +1,6 @@
 cask "nsfw" do
     version :latest
+    name "nsfw"
     desc ""
     homepage "https://github.com/iamlynnmckay/nsfw"
     url "https://github.com/iamlynnmckay/nsfw/archive/refs/tags/v1.0.0.tar.gz"
