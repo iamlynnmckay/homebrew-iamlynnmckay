@@ -4,7 +4,7 @@ cask "sfw" do
     desc "sfw"
     homepage "https://github.com/iamlynnmckay/sfw"
     url "https://github.com/iamlynnmckay/sfw/archive/refs/tags/v#{version}tar.gz"
-    sha256 "1cfb35b7ab8722331cfaa3698efb9bedcd5e56c6dfb214ddc92fccae4d0a1e15"
+    sha256 "89549a3ba5d3270ef6af1d0af7bbd4a4ae9050c483cc4601f18e0d2b30d7be3a1"
     # formula dependencies
     depends_on formula: "coreutils"
     depends_on formula: "docker"
