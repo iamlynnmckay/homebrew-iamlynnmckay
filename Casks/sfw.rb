@@ -35,7 +35,8 @@ cask "sfw" do
     # iamlynnmckay tap dependencies
     depends_on formula: "iamlynnmckay/iamlynnmckay/dotfiles"
     # sfw executable
-    binary "sfw"
+    #binary "sfw"
+    stage_only true
     # caveats
     caveats "Please run 'sfw --homebrew' to finish the package installation."
   end

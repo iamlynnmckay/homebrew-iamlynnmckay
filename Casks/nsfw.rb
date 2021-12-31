@@ -31,7 +31,8 @@ cask "nsfw" do
     # iamlynnmckay tap dependencies
     depends_on cask: "iamlynnmckay/iamlynnmckay/sfw"
     # nsfw executable
-    binary "nsfw"
+    # binary "nsfw"
+    stage_only true
     # caveats
     caveats "Please run 'nsfw --homebrew' to finish the package installation."
   end
