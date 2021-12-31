@@ -1,4 +1,5 @@
 cask "sfw" do
+    version :latest
     desc ""
     homepage "https://github.com/iamlynnmckay/sfw"
     url "https://github.com/iamlynnmckay/sfw/archive/refs/tags/v1.0.0.tar.gz"
