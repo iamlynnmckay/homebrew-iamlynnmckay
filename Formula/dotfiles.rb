@@ -17,4 +17,3 @@ class Dotfiles < Formula
       system "true"
     end
   end
-  
