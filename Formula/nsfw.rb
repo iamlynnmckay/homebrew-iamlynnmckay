@@ -5,7 +5,7 @@ class Nsfw < Formula
     sha256 ""
     license "MIT"
     # cask
-    depends_on "caskroom/cask/arduino"
+    depends_on "homebrew/cask/arduino"
     depends_on "audacity"
     depends_on "bitwig-studio"
     depends_on "blender"
