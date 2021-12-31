@@ -32,7 +32,7 @@ class Sfw < Formula
     depends_on "visual-studio-code"
     depends_on "vlc"
     # tap iamlynnmckay
-    depends_on formula: "iamlynnmckay/iamlynnmckay/dotfiles"
+    depends_on "iamlynnmckay/iamlynnmckay/dotfiles"
     def install
         bin.install "sfw"
     end

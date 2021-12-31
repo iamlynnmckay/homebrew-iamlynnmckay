@@ -27,7 +27,7 @@ class Nsfw < Formula
     depends_on "twitch"
     depends_on "vcv-rack"
     depends_on "zoom"
-    # iamlynnmckay tap
+    # tap iamlynnmckay
     depends_on "iamlynnmckay/iamlynnmckay/sfw"
     def install
         bin.install "nsfw"
