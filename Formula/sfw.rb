@@ -23,17 +23,17 @@ class Sfw < Formula
     depends_on "iamlynnmckay/iamlynnmckay/dotfiles"
     def install
         # cask dependencies
-        system "/usr/local/bin/brew", "cask", "install", "firefox"
-        system "/usr/local/bin/brew", "cask", "install", "gimp"
-        system "/usr/local/bin/brew", "cask", "install", "google-chrome"
-        system "/usr/local/bin/brew", "cask", "install", "intellij-idea"
-        system "/usr/local/bin/brew", "cask", "install", "iterm2"
-        system "/usr/local/bin/brew", "cask", "install", "libreoffice"
-        system "/usr/local/bin/brew", "cask", "install", "mactex-no-gui"
-        system "/usr/local/bin/brew", "cask", "install", "macvim"
-        system "/usr/local/bin/brew", "cask", "install", "tmux"
-        system "/usr/local/bin/brew", "cask", "install", "visual-studio-code"
-        system "/usr/local/bin/brew", "cask", "install", "vlc"
+        system "/usr/local/bin/brew", "install", "firefox"
+        system "/usr/local/bin/brew", "install", "gimp"
+        system "/usr/local/bin/brew", "install", "google-chrome"
+        system "/usr/local/bin/brew", "install", "intellij-idea"
+        system "/usr/local/bin/brew", "install", "iterm2"
+        system "/usr/local/bin/brew", "install", "libreoffice"
+        system "/usr/local/bin/brew", "install", "mactex-no-gui"
+        system "/usr/local/bin/brew", "install", "macvim"
+        system "/usr/local/bin/brew", "install", "tmux"
+        system "/usr/local/bin/brew", "install", "visual-studio-code"
+        system "/usr/local/bin/brew", "install", "vlc"
         # sfw executable
         bin.install "sfw"
     end
