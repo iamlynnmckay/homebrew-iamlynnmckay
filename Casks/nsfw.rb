@@ -4,7 +4,12 @@ cask "nsfw" do
     desc "nsfw"
     homepage "https://github.com/iamlynnmckay/nsfw"
     url "https://github.com/iamlynnmckay/nsfw/archive/refs/tags/v#{version}.tar.gz"
-    sha256 "1cfb35b7ab8722331cfaa3698efb9bedcd5e56c6dfb214ddc92fccae4d0a1e15"
+    sha256 ""
+    # formula dependencies
+    depends_on formula: "chuck"
+    depends_on formula: "csound"
+    depends_on formula: "jack"
+    depends_on formula: "qjackctl"
     # cask dependencies
     depends_on cask: "arduino"
     depends_on cask: "audacity"
@@ -18,20 +23,26 @@ cask "nsfw" do
     depends_on cask: "emacs"
     depends_on cask: "epic-games"
     depends_on cask: "google-earth-pro"
+    depends_on cask: "hydrogen"
+    depends_on cask: "musescore"
+    depends_on cask: "orca"
     depends_on cask: "pd"
+    depends_on cask: "reaper"
     depends_on cask: "rekordbox"
     depends_on cask: "signal"
     depends_on cask: "skype"
     depends_on cask: "spotify"
     depends_on cask: "steam"
     depends_on cask: "supercollider"
+    depends_on cask: "surge-synthesizer"
     depends_on cask: "twitch"
     depends_on cask: "vcv-rack"
     depends_on cask: "zoom"
     # iamlynnmckay tap dependencies
     depends_on cask: "iamlynnmckay/iamlynnmckay/sfw"
+    depends_on cask: "iamlynnmckay/iamlynnmckay/nsfw-formula"
     # nsfw executable
-    # binary "nsfw"
+    # stage only
     stage_only true
     # caveats
     caveats "Please run 'nsfw --homebrew' to finish the package installation."

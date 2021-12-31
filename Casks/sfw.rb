@@ -4,7 +4,7 @@ cask "sfw" do
     desc "sfw"
     homepage "https://github.com/iamlynnmckay/sfw"
     url "https://github.com/iamlynnmckay/sfw/archive/refs/tags/v#{version}.tar.gz"
-    sha256 "89549a3ba5d3270ef6af1d0af7bbd4a4ae9050c483cc4601f18e0d2b30d7be3a"
+    sha256 ""
     # formula dependencies
     depends_on formula: "coreutils"
     depends_on formula: "docker"
@@ -34,8 +34,8 @@ cask "sfw" do
     depends_on cask: "vlc"
     # iamlynnmckay tap dependencies
     depends_on formula: "iamlynnmckay/iamlynnmckay/dotfiles"
-    # sfw executable
-    #binary "sfw"
+    depends_on formula: "iamlynnmckay/iamlynnmckay/sfw-formula"
+    # stage only
     stage_only true
     # caveats
     caveats "Please run 'sfw --homebrew' to finish the package installation."
