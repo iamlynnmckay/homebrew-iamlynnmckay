@@ -4,7 +4,7 @@ class Sfw < Formula
     url "https://github.com/iamlynnmckay/sfw/archive/refs/tags/v1.0.0.tar.gz"
     sha256 ""
     license "MIT"
-    #
+    # formula
     depends_on formula: "coreutils"
     depends_on formula: "docker"
     depends_on formula: "docker-compose"
@@ -19,7 +19,7 @@ class Sfw < Formula
     depends_on formula: "haskell-stack"
     depends_on formula: "neovim"
     depends_on formula: "rust"
-    #
+    # cask
     depends_on cask: "firefox"
     depends_on cask: "gimp"
     depends_on cask: "google-chrome"
@@ -31,9 +31,8 @@ class Sfw < Formula
     depends_on cask: "tmux"
     depends_on cask: "visual-studio-code"
     depends_on cask: "vlc"
-    #
+    # tap iamlynnmckay
     depends_on formula: "iamlynnmckay/iamlynnmckay/dotfiles"
-    #
     def install
         bin.install "sfw"
     end
