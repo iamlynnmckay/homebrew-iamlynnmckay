@@ -25,6 +25,7 @@ cask "nsfw" do
     depends_on cask: "google-earth-pro"
     depends_on cask: "hydrogen"
     depends_on cask: "musescore"
+    depends_on cask: "nordvpn"
     depends_on cask: "orca"
     depends_on cask: "pd"
     depends_on cask: "reaper"
