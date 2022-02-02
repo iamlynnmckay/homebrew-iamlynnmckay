@@ -21,6 +21,7 @@ cask "sfw" do
     depends_on formula: "neovim"
     depends_on formula: "ruby"
     depends_on formula: "rust"
+    depends_on formula: "telnet"
     depends_on formula: "tmux"
     # cask dependencies
     depends_on cask: "firefox"
