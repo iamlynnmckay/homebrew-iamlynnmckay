@@ -7,7 +7,6 @@ cask "sfw" do
     sha256 ""
     # formula dependencies
     depends_on formula: "coreutils"
-    depends_on formula: "docker"
     depends_on formula: "docker-compose"
     depends_on formula: "findutils"
     depends_on formula: "gawk"
@@ -24,6 +23,7 @@ cask "sfw" do
     depends_on formula: "telnet"
     depends_on formula: "tmux"
     # cask dependencies
+    depends_on cask: "docker"
     depends_on cask: "firefox"
     depends_on cask: "gimp"
     depends_on cask: "google-chrome"

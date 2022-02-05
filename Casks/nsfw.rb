@@ -6,10 +6,17 @@ cask "nsfw" do
     url "https://github.com/iamlynnmckay/nsfw/archive/refs/tags/v#{version}.tar.gz"
     sha256 ""
     # formula dependencies
+    depends_on formula: "bison"
     depends_on formula: "chuck"
+    depends_on formula: "cmake"
     depends_on formula: "csound"
+    depends_on formula: "gcc"
     depends_on formula: "jack"
+    depends_on formula: "libffi"
+    depends_on formula: "mcpp"
+    depends_on formula: "pkg-config"
     depends_on formula: "qjackctl"
+    # TODO: depends_on formula: "souffle-lang/souffle/souffle"
     # cask dependencies
     depends_on cask: "arduino"
     depends_on cask: "audacity"
