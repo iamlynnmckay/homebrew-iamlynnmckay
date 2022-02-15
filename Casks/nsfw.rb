@@ -31,6 +31,7 @@ cask "nsfw" do
     depends_on cask: "epic-games"
     depends_on cask: "google-earth-pro"
     depends_on cask: "hydrogen"
+    depends_on cask: "messenger"
     depends_on cask: "microsoft-outlook"
     depends_on cask: "musescore"
     depends_on cask: "nordvpn"
