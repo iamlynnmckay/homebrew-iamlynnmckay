@@ -11,6 +11,7 @@ cask "nsfw" do
     depends_on formula: "cmake"
     depends_on formula: "csound"
     depends_on formula: "gcc"
+    depends_on formula: "gh"
     depends_on formula: "jack"
     depends_on formula: "libffi"
     depends_on formula: "mcpp"
