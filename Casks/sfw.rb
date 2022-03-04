@@ -18,6 +18,7 @@ cask "sfw" do
     depends_on formula: "grep"
     depends_on formula: "haskell-stack"
     depends_on formula: "neovim"
+    depends_on formula: "pandoc"
     depends_on formula: "ruby"
     depends_on formula: "rust"
     depends_on formula: "telnet"
